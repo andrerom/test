@@ -50,8 +50,9 @@ git checkout README   # Same effect as 'svn revert'
 git diff              # diff before you execute 'gitt add'
 git diff --cached     # diff to see what you are about to commit (alreaddy done 'git add')
 git pull              # Kinda like 'svn up'
-git branch [<name>]   # Branching, parameter to create new (locally)
-git cherry-pick <rev> # Branch a specifc revision instead of a whole branch
+git branch [<branch>] # Branching, parameter to create new (locally)
+git merge <branch>    # Merge a branch with the one you have currently checked out
+git cherry-pick <rev> # Merge a specifc revision instead of a whole branch
 
 
 Further reference:
