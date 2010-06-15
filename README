@@ -1,7 +1,57 @@
 There is really nothing to see here!
 
 So sod off!
-(or something, it's your time.. If you want to waste it, thats your problem)
+(or something, it's your time.. If you want to waste it, that's your problem)
+
+Anyway..
+
+============
+To sum it up
+============
+
+GIT needs a lot more commands then svn, and most of the gui tools are still flaky..
+
+New repo:
+---------
+mkdir <name>
+cd <name>
+git init
+touch README
+git add README
+git commit -m 'initial commit'
+git remote add origin git@github.com:<user>/<name>.git
+git push origin master
 
 
-eom
+Existing repo:
+--------------
+git clone git@github.com:<user>/<name>.git
+cd <name>
+
+New file:
+---------
+touch null.txt
+git add null.txt
+git commit -m "added null, how nice.."
+git push origin master
+
+
+Change file:
+------------
+nano README
+# Do some text changes and save
+git commit -am "Added some text to a file, hooray.."
+git push origin master
+
+
+Misc:
+-----
+git checkout README # Same effect as 'svn revert'
+git diff            # diff before you execute 'gitt add'
+git diff --cached   # diff to see what you are about to commit (alreaddy done 'git add')
+git pull            # Kinda like 'svn up'
+git branch [<name>] # Branching, parameter to create new (locally)
+
+--
+Sincerely yours,
+Marvin the Paranoid Android
