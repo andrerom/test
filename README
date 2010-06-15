@@ -46,11 +46,20 @@ git push origin master
 
 Misc:
 -----
-git checkout README # Same effect as 'svn revert'
-git diff            # diff before you execute 'gitt add'
-git diff --cached   # diff to see what you are about to commit (alreaddy done 'git add')
-git pull            # Kinda like 'svn up'
-git branch [<name>] # Branching, parameter to create new (locally)
+git checkout README   # Same effect as 'svn revert'
+git diff              # diff before you execute 'gitt add'
+git diff --cached     # diff to see what you are about to commit (alreaddy done 'git add')
+git pull              # Kinda like 'svn up'
+git branch [<name>]   # Branching, parameter to create new (locally)
+git cherry-pick <rev> # Branch a specifc revision instead of a whole branch
+
+
+Further reference:
+------------------
+http://wiki.freegeek.org/index.php/Git_for_dummies
+http://git.or.cz/course/svn.html
+
+
 
 --
 Sincerely yours,
