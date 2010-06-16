@@ -28,6 +28,14 @@ Existing repo:
 git clone git@github.com:<user>/<name>.git
 cd <name>
 
+# Alternative to specify origin name and target folder
+git clone -o ezsystems.ezpublish git@github.com:ezsystems/ezpublish.git git
+
+# If you need to chekout other branches then master, then you need to use
+# -b the first time to add branch to locale branch list, eg:
+git checkout --track -b stable43 ezsystems.ezpublish/stable-4.3
+
+
 New file:
 ---------
 touch null.txt
