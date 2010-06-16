@@ -1,13 +1,6 @@
-There is really nothing to see here!
-
-So sod off!
-(or something, it's your time.. If you want to waste it, that's your problem)
-
-Anyway..
-
-============
-To sum it up
-============
+================
+Mini GIT summary
+================
 
 GIT needs a lot more commands then svn, and most of the gui tools are still flaky..
 
@@ -68,8 +61,3 @@ Further reference:
 ------------------
 http://wiki.freegeek.org/index.php/Git_for_dummies
 http://git.or.cz/course/svn.html
-
-
---
-Sincerely yours,
-Marvin the Paranoid Android
