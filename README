@@ -1,4 +1,4 @@
-There is really nothing to see here!
+(stable)There is really nothing to see here!
 
 So sod off!
 (or something, it's your time.. If you want to waste it, that's your problem)
@@ -50,7 +50,8 @@ git checkout README   # Same effect as 'svn revert'
 git diff              # diff before you execute 'gitt add'
 git diff --cached     # diff to see what you are about to commit (alreaddy done 'git add')
 git pull              # Kinda like 'svn up'
-git branch [<branch>] # Branching, parameter to create new (locally)
+git branch            # List branches ( -r : remote, -a : all )
+git branch <branch>   # Create new locally branch
 git merge <branch>    # Merge a branch with the one you have currently checked out
 git cherry-pick <rev> # Merge a specifc revision instead of a whole branch
 
