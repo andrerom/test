@@ -45,6 +45,17 @@ git commit -am "Added some text to a file, hooray.."
 git push origin master
 
 
+Merge branch:
+-------------
+# first make sure branch you merge from is uptodate
+git checkout <from_branch>
+git pull
+git checkout <to_branch>
+git pull
+git merge <from_branch>
+git push
+
+
 Misc:
 -----
 git checkout README   # Same effect as 'svn revert'
